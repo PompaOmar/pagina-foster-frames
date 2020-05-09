@@ -1,0 +1,141 @@
+
+body{margin: 0%;
+background-image: url(imagenes/Foster.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+/*Menu*/
+html {
+box-sizing: border-box;}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1.1px;}
+ .contenedor{
+    position: relative;
+    display: ;}
+.texto-encima{
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);}
+.logo{margin-right: -175%;}
+
+
+.contenedor{
+    position: relative;
+    display: ;}
+.texto-encima{
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);}
+header{  width: 100%;
+  position: fixed;
+  z-index: 100;}
+
+.contenedor ul, .contenedor li a{
+            display: block;
+            padding: 10px;
+            position: relative;
+            text-decoration: none;
+            text-align: left;
+            padding: 10px 30px;
+            border-radius: 10px;
+            color: white;
+            font-family: "Helvetica";
+            font-size: 18px;
+            cursor: pointer;}
+
+ul li .inicio:after{
+        position: absolute;
+        bottom: 20px;
+        left: 0px;
+        width: 100%;
+        height: 4px;
+        background-color: #ed1a4f;
+        content: "";
+        opacity: 0;
+        transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+        transform: translateY(20px);}
+ul li a:hover:after{
+        opacity:1;
+        transform: translateY(15px) }
+.dropdown{display: relative;
+         display: inline-block;}
+.dropdown:hover .contenido{display: block;}
+
+h1{
+font-family: "Verdana";
+font-size: 33px;
+color: #ed1a4f;
+margin-left: 30%;
+text-align: justify;}
+p{
+font-family: "Arial Narrow";
+font-size: 22px;
+color: white;
+margin-left: 15%;
+margin-right: 15%;
+text-align: justify;}
+h2{
+font-family: "Verdana";
+font-size: 35px;
+color: white;
+margin-left: 42%;
+text-align: justify;}
+.disc{
+font-family: "Helvetica";
+font-size: 28px;
+color: #be2a4a;
+margin-left: 15%;
+margin-right: 15%;
+text-align: justify;}
+.song{
+font-family: "Helvetica";
+font-size: 45px;
+color: white;
+margin-left: 39%;
+margin-right: 15%;
+}
+.song1{
+font-family: "Helvetica";
+font-size: 45px;
+color: white;
+margin-left: 44%;
+margin-right: 15%;
+}
+.imagina{
+  position: relative;
+  top:-404px;
+  left: 36%;
+}
+.pick{
+  position: relative;
+  top:-445px;
+  left: 35%;
+}
+.foto{
+  width: 66%; 
+  margin-left: 17%; 
+  border-radius: 10px
+}
+.foto2{
+  width: 70%; 
+  margin-left: 15%; 
+  border-radius: 10px
+}
+.fotoG{
+  width: 90%; 
+  margin-left: 5%; 
+  border-radius: 10px
+}
+
